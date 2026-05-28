@@ -124,7 +124,7 @@ idx_critico = 0
 for i in range(1, total_eventos):
     if intensidades[i] > intensidades[idx_critico]:
         idx_critico = i
-    elif intensidades[i150] == intensidades[idx_critico]:
+    elif intensidades[i] == intensidades[idx_critico]:
         if areas_afetadas[i] > areas_afetadas[idx_critico]:
             idx_critico = i
 
